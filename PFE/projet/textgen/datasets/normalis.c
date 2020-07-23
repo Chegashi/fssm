@@ -8,8 +8,8 @@ int main(int argc, char *argv[])
     FILE* fichier1 = NULL;
     FILE* fichier2 = NULL;
 
-    fichier1 = fopen("bio_data.txt", "r+");
-    fichier2 = fopen("bio_data_n.txt", "a+");
+    fichier1 = fopen("bio_security.txt", "r+");
+    fichier2 = fopen("bio_security_n.txt", "a+");
     char c;
 	while((c = fgetc(fichier1)) != EOF)
     {

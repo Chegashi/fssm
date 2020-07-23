@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     size_t len = 0;
     ssize_t read,m;
     int co=0;
-    fp = fopen("bio_desing_n.txt", "r");
+    fp = fopen("bio_security_n.txt", "r");
         for (int i = 0; i < 10; i++){
             for (int j = 0; j < 10; j++){
                 for ( int k = 0; k < 10; k++){
@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
                         m=0;
                        // printf("\"%d\",",co++);
                         putchar(34);
-                        putchar('c');putchar('h');
+                        putchar('d');putchar('h');
                         putchar('0'+i);putchar('0'+j);putchar('0'+k);putchar('0'+l);
                         putchar(34);
                         putchar(',');
@@ -36,9 +36,9 @@ int main(int argc, char const *argv[])
                             putchar('\n');
                         // putchar('\n');
                         // puts(line);
-                        if(l==3 && k==1 && j== 1 && i ==1)
+                        if(l== 9 && k== 2 && j== 2 && i == 2)
                         {
-                            printf("\0");
+                           // printf("'");
                             fclose(fp);
                             exit(EXIT_SUCCESS);
                         }

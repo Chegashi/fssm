@@ -1,3 +1,0 @@
-a:devlopement
-b:data
-c:desinge
